@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+}
+img {
+  position: relative;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.Tooltip {
+  position: absolute;
+  max-width: 350px;
+  max-height: 200px;
+  top: 10px;
+  left: 160px;
+  background-color: #f3600a;
+  color: #000000;
+  padding: 5px;
+  display: none;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06);
+}
