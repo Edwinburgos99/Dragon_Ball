@@ -1,19 +1,83 @@
 body {
   margin: 0;
+  margin-top: 10px;
 }
-img {
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  margin: 0;
+  padding: 10px;
+}
+.uno {
+  display: flex;
+  margin-bottom: 50px;
+  justify-content: space-evenly;
+}
+.dos {
+  display: flex;
+  justify-content: space-evenly;
+}
+.Kamehameha {
   position: relative;
-  margin-top: 20px;
-  margin-left: 50px;
+  top: 50px;
+  left: 250px;
+}
+.Genkidama {
+  position: relative;
+  top: 100px;
+  left: 240px;
 }
 .Tooltip {
   position: absolute;
-  max-width: 350px;
-  max-height: 200px;
-  top: 10px;
-  left: 160px;
+  max-width: 300px;
+  max-height: 350px;
+  top: 60px;
+  left: 530px;
   background-color: #f3600a;
-  color: #000000;
+  color: #fff;
+  padding: 5px;
+  display: none;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06);
+}
+.gooltip {
+  position: absolute;
+  max-width: 280px;
+  max-height: 350px;
+  top: 700px;
+  left: 500px;
+  background-color: #1809eb;
+  color: #fff;
+  padding: 5px;
+  display: none;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06);
+}
+.pooltip {
+  position: absolute;
+  max-width: 280px;
+  max-height: 350px;
+  top: 700px;
+  left: 550px;
+  background-color: #038d16;
+  color: #fff;
+  padding: 5px;
+  display: none;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06);
+}
+.vooltip {
+  position: absolute;
+  max-width: 280px;
+  max-height: 350px;
+  top: 60px;
+  left: 570px;
+  background-color: #8c06b4;
+  color: #fff;
   padding: 5px;
   display: none;
   border-radius: 10px;

@@ -13,7 +13,10 @@ nav {
   display: flex;
   justify-content: space-between;
 }
-
+h1 {
+  padding: 5px;
+  text-align: center;
+}
 nav ul {
   list-style: none; /* Elimina los estilos predeterminados de las viñetas */
   margin: 0; /* Elimina el margen predeterminado de la lista */
@@ -48,4 +51,17 @@ footer a {
   position: absolute;
   top: 0;
   right: 25px;
+}
+.submenu {
+  display: none;
+  position: absolute;
+  top: 51%;
+  left: 65px;
+  padding: 10px;
+}
+.color {
+  color: black;
+}
+.menu:hover .submenu {
+  display: block;
 }
