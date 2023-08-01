@@ -2,6 +2,7 @@ body {
   margin: 0;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 12pt;
+  background-color: white;
 }
 header img {
   width: 100%;
@@ -16,6 +17,7 @@ nav {
 h1 {
   padding: 5px;
   text-align: center;
+  font-size: 24pt;
 }
 nav ul {
   list-style: none; /* Elimina los estilos predeterminados de las viñetas */
@@ -64,4 +66,22 @@ footer a {
 }
 .menu:hover .submenu {
   display: block;
+}
+.videos-row {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+video {
+  width: 48%;
+  height: auto;
+}
+.videos-column {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  margin: 0 auto;
+  margin-bottom: 20px;
 }
